@@ -52,7 +52,7 @@ OnGameEndedHint( player ) // End Game
 {
 	level waittill("end_game");
 	hud = player createFontString("objective", 2);
-    hud setText("^5discord.gg/^6wR4xt8g4Ag");
+    hud setText("^5discord.io/^6lilpoop");
     hud.x = 0;
 	hud.y = 0;
 	bar.alignx = "center";
@@ -72,5 +72,5 @@ drawDiscord() //Discord Link
     self waittill("initial_blackscreen_passed");
     level.discordText = createServerFontString( "small", 1.25 );
     level.discordText setPoint( "CENTER", "TOP", "CENTER", -20 ); 
-    level.discordText setText( "^5discord.gg/^6wR4xt8g4Ag" );
+    level.discordText setText( "^5discord.io/^6lilpoop" );
 }
